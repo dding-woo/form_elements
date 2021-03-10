@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>textfield , legend, form </title>
+</head>
+
+<body>
+    <!-- 아이디나 주민번호 등 개인의 정보가 들어간 것은 post 방식을 사용해야함. ->데이터가 전송될 떄 노출 되지않기 때문에 .  -->
+    <form action="result.html" method="GET">
+        <fieldset>
+            <!--폼요소의 제목으로 fieldset 내부에 작성 -->
+            <legend>Nike jordan1 OG UNIVERSITY BLUE</legend>
+            <!-- 응모자 정보 -->
+            <h1>나이키 조던 1 유니버시티 블루 응모</h1>
+            <p>당첨자는 당일 방문수령만 가능하며, 미수령으로 인한 불이익이 있을 수도 있습니다.</p>
+
+            <h2>생년월일</h2>
+            <input type="text" placeholder="YYMMDD" maxlength="6"><br>
+            <h2>성별</h2>
+            &nbsp; 남<input type="radio" name="gender"> 여<input type="radio" name="gender"><br>
+            <h2>휴대폰번호<span>(ex) 010-xxxx-xxxx) 하이폰을 반드시 추가해 주세요.</span></h2>
+            <input type="tel"><br>
+
+            <input type="submit">
+        </fieldset>
+    </form>
+</body>
+
+</html>

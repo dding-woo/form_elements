@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form 요소 input 태그</title>
+</head>
+
+<body>
+    <form action="/test.html">
+        <h1>form 관련 요소.</h1>
+
+        <label for="userid">ID:</label> <input type="text" placeholder="아이디를 입력해주세요." id="userid"> <br>
+        <label for="userpw"> PW: </label><input type="password" id="userpw"> <br>
+        <h2>어? 라디오 버튼은 하나만 자동적으로 하나만 선택 되는거 아닌가요>??</h2>
+        <p>name 속성을 이용해서 라디오버튼을 그룹화 해야 택 1을 기능을 구현 할 수 있습니다.</p>
+        <label for="play">재생</label> <input type="radio" name="music" id="play"> 정지<input type="radio" name="music">
+        반복<input type="radio" name="music"> <br>
+        <h3>너의 취미는 뭐니?</h3>
+        <p>checked 속성은 값이 없는 불린 형 속성임 작성 자체많으로 true를 가짐.</p>
+        <label for="reading">1. 독서 </label> <input type="checkbox" id="reading"> 2. 음악듣기 <input type="checkbox" checked>
+        3. 운동 <input type="checkbox">
+        <h3> form데이터를 전송하는 버튼</h3>
+        <input type="submit" value="전송"><br>
+        <h3>파일을 업로드 할 수 있는 type</h3>
+        프로필 사진 업로드 <input type="file"><br>
+        <h3> form데이터를 초기화 하는 버튼</h3>
+        <input type="reset" value="초기화"><br>
+        <h3>input button 타입 경우 개발자가 특별한 커스텀을 해주지 않으면 클릭해도 아무런 반응도 없는 그냥 버튼이다.</h3>
+        <input type="button"><br>
+        <h3>이미지를 삽입 할 수 있는 버튼.(submit)과 동작이 비슷함.</h3>
+        <input type="image" src="http://placehold.it/50x50?text=click" alt="로그인" width="100" height="50"><br>
+        현재 사는 곳의 위치는?<select name="" id="">
+            <option value="">서울</option>
+            <option value="">경기</option>
+            <option value="">강원</option>
+            <option value="" selected>제주</option> <br>
+
+
+
+        </select>
+        자기소개: <textarea name="" id="" cols="30" rows="10"></textarea> <br>
+
+    </form>
+
+</body>
+
+</html>
